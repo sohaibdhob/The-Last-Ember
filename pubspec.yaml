@@ -1,0 +1,23 @@
+name: the_last_ember
+description: A cinematic 2D puzzle-platformer.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: ^1.8.0
+  flame_audio: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    # سنقوم بذكر المجلد الرئيسي لأن ملفاتك موجودة فيه مباشرة
+    - ./
